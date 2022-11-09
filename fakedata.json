@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Lunch for single family",
+        "description": "need the lunch package for your single family. i have many lunch packages for your family example: plain rice and fish curry: vegetable or cow's meat vegetable and salad. our fishes are original river fish and our meats are actual deshi fish includes for your single family ",
+        "price": "$120",
+        "rating": 4.5,
+        "service_id": "01",
+        "image": "https://www.unlockfood.ca/EatRightOntario/media/Website-images-resized/Family-meals-with-no-TV-resized.jpg"
+    },
+    {
+        "name": "lunches for the whole family",
+        "description": "Having just mentioned crêpes, have you considered the sheer lunacy that could be pancakes for lunch? While this traditional breakfast staple doesn’t sound easy or quick on paper, our recipe means making the basic batter couldn’t be less stressful. By experimenting with savory and sweet toppings, you can have some real fun with your plating. They can also be an excellent opportunity to sneak in a few portions of fruit and veg. You could even mix some grated courgette through your batter for additional vegetation. Just make sure to press that grated courgette with a crack of salt and a tea towel beforehand to get as much moisture out as possible.",
+        "price": "$320",
+        "rating": 5,
+        "service_id": "02",
+        "image": "https://sassytownhouseliving.com/wp-content/uploads/2021/01/family-enjoying-healthy-dinner-together-1024x683.jpeg"
+    },
+    {
+        "name": "meal for a birthday party",
+        "description": "It’s the big day, so you’re pulling out all the stops. What better way to celebrate than with a delicious, home-cooked meal? You bring the candles and gifts—we’ll take care of the menu. From homemade pizza to whole roast chicken, here are 55 birthday dinner ideas that the special person in your life is bound to love.",
+        "price": "$320",
+        "rating": 5,
+        "service_id": "03",
+        "image": "https://cdn.blogup.io/media/resource/file/1_nYpIm5m.jpg"
+    },
+    {
+        "name": "dinners for the Wedding anniversary party",
+        "description": "A wedding anniversary is a perfect day for all your family, friends, and relatives to get together. Apart from decorations, music, dance, lighting, and food is the most important aspect to look after a party. Everyone’s taste has to be given preference, so you have to make sure that no one gets disappointed and everyone has a good evening. So, plan out the ideal menu, add up dishes from various cuisines, and get ready to plan a perfect wedding anniversary party. 20 Dishes to Prepare for A Wedding Anniversary Party 1. Zafrani Pulao. Guests usually prepare to have rice as the first item on their plate. 2. Dal Bukhara. Dal Bukhara is a famous recipe of ITC Maurya Hotel made with Urad lentils. 3. Risotto. 4. Kachori Sabzi 5. Golgappa 6. Butter Chicken. 7. Smoked Dal Makhani",
+        "price": "$820",
+        "rating": 5,
+        "service_id": "04",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-s/10/7c/1b/a5/35th-wedding-anniversary.jpg"
+    },
+    {
+        "name": "dinner for the holiday party",
+        "description": "meld in perfect harmony. This festive buffet menu balances the savory and the sweet. appetite when Martha gives a caroling party, the sounds and the flavors of the season r White Crudites with Buttermilk Dip.Oysters with Mignonette Gelee. Potato Pancakes with Pink Applesauce and Creme Fraiche Pickled Lady Apples Smoked Salmon Platter with Fennel Salad. Individual Pork Potpies. Rice-Stuffed Cabbage .soup Creamy Winter Squash Soup with Herbed Crostini. beverage. Martha's Classic Eggnog. dessert. White Cake with Mincemeat Filling and Glaceed Fruit. Walnut Cookies. Almond. Orange Cookies. Cranberry and Pistachio Rochers. Speculaas. Cookies",
+        "price": "$320",
+        "rating": 5,
+        "service_id": "05",
+        "image": "https://www.gannett-cdn.com/presto/2018/12/04/PDTF/b15ef98a-b21a-4fe2-82b2-2eaae6bd3b15-3.jpg"
+    },
+    {
+        "name": "Fall Pasta Recipes to Serve for Thanksgiving (or Any Old Weeknight",
+        "description": "We love eating pasta for dinner year-round, but there’s no doubt that we crave it even more come fall. As the weather crisps up, we yearn for its satisfying heartiness, whether it’s doused in butternut squash sauce, mixed with bacon or baked under a cozy blanket of cheese. So, we rounded up 22 fall pasta recipes that will hit the spot whenever you need a hug in a bowl. They’re simple enough to make on a weeknight but seasonal and delicious enough to serve at Thanksgiving if you so choose.",
+        "price": "$220",
+        "rating": 5,
+        "service_id": "06",
+        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/02/05/Baked-Feta-Pasta-4_s4x3.jpg.rend.hgtvcom.616.493.suffix/1615916524567.jpeg"
+    }
+]
