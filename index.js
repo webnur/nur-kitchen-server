@@ -56,7 +56,13 @@ async function run() {
             res.send(reviews)
         })
 
-        
+        app.post('/subscribers', async(req, res) => {
+            const service = req.body;
+            const result = await subscribers.insertOne(service);
+            res.send(result)
+        })
+
+
     }
     finally {
 
