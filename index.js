@@ -18,7 +18,7 @@ async function run() {
 
     try {
         const servicesCollection = client.db('nurKitchen').collection('services');
-
+  
         app.get('/services', async (req, res) => {
             const query = {};
             const cursor = servicesCollection.find(query);
@@ -26,7 +26,13 @@ async function run() {
             res.send(services)
         });
 
-        app.get('/services/:id', async (req, res) => {
+        app.post('/services', async(req, res) => {
+            const service = req.body;
+            const result = await servicesCollection.insertOne(service);
+            res.send(result)
+        })
+
+        app.get('/serviceDetails/:id', async (req, res) => {
             const id = req.params.id;
             const query = { _id: ObjectId(id) };
             const service = await servicesCollection.findOne(query);
