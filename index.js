@@ -18,7 +18,9 @@ async function run() {
 
     try {
         const servicesCollection = client.db('nurKitchen').collection('services');
-        const reviewsCollection = client.db('nurKitchen').collection('reviews')
+        const reviewsCollection = client.db('nurKitchen').collection('reviews');
+        const subscribers = client.db('nurKitchen').collection('subscribers');
+
   
         app.get('/services', async (req, res) => {
             const query = {};
@@ -46,6 +48,15 @@ async function run() {
             res.send(result)
 
         })
+
+        app.get('/reviews', async(req, res) => {
+            const query = {};
+            const cursor = reviewsCollection.find(query);
+            const reviews = await cursor.toArray();
+            res.send(reviews)
+        })
+
+        
     }
     finally {
 
