@@ -49,8 +49,15 @@ async function run() {
 
         })
 
-        app.get('/reviews', async(req, res) => {
-            const query = {};
+        app.get('/reviews/:id', async(req, res) => {
+            let query = {}
+            const id = req.params.id;
+            if(id){
+                query={
+                    id: id,
+                }
+            }
+            // const query = {id: ObjectId(id)};
             const cursor = reviewsCollection.find(query);
             const reviews = await cursor.toArray();
             res.send(reviews)
